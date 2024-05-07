@@ -1,0 +1,99 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1b1b1b;
+  }
+  .home-container1 {
+    flex: 0 0 auto;
+    width: 365px;
+    height: 469px;
+    display: flex;
+    box-shadow: 0px 7px 29px 0px #ffffff;
+    align-items: center;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #242424;
+  }
+  .home-container3 {
+    display: contents;
+  }
+  .home-image {
+    width: 200px;
+    object-fit: cover;
+  }
+  .home-text {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+    font-size: 40px;
+    text-align: center;
+    font-family: "JetBrains Mono";
+  }
+  .home-text3 {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+    font-size: 32px;
+    font-family: "JetBrains Mono";
+  }
+  .home-container4 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .home-container5 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .home-container6 {
+    flex: 0 0 auto;
+    width: auto;
+    border: 2px dashed rgba(120, 120, 120, 0.4);
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .home-container7 {
+    flex: 0 0 auto;
+    width: auto;
+    border: 2px dashed rgba(120, 120, 120, 0.4);
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .home-link {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+    font-style: normal;
+    text-align: center;
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+  }
+  .home-link1 {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+    font-style: normal;
+    text-align: center;
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+  }
+  @media(max-width: 479px) {
+    .home-text {
+      align-self: center;
+    }
+  }
+  
